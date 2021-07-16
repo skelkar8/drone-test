@@ -1,9 +1,10 @@
 kind: pipeline
 type: docker
 name: default
+   
 steps:
-  - name: test
+- name: test
   image: alpine
   commands:
-    - echo hello
-    - echo world
+  - echo hello
+  - echo world
