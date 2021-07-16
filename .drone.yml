@@ -19,4 +19,4 @@ steps:
     secret_key:
       from_secret: aws_secret_access_key
     source: public/**/*
-    target: /target/location
+    target: /
